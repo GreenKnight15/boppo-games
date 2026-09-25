@@ -1,0 +1,35 @@
+# Rust build output (each game has its own target/)
+target/
+
+# Cargo.lock is committed on purpose — these are binary crates, not libraries
+
+# Jujutsu VCS (used by upstream Boppo repos)
+.jj/
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local secrets / device config — never commit
+.env
+.env.*
+devices.toml
+*.pem
+*.key
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.lnk
+$RECYCLE.BIN/
+
+# Windows oddities (Git Bash redirect accidents create these)
+nul
+*.tmp
+*.bak
+*.orig

@@ -1,0 +1,7 @@
+[package]
+name = "fart_machine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+boppo_wasm = "0.1"
